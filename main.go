@@ -17,7 +17,7 @@ func calcularFactorial(n int, ch chan<- int, wg *sync.WaitGroup) {
 }
 
 func main() {
-	numeros := []int{5, 9, 11, 4, 8} 
+	numeros := []int{5, 9, 11, 4, 8, 3, 2, 7} 
 
 	resultados := make(chan int, len(numeros))
 
